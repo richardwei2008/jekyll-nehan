@@ -13,3 +13,10 @@ paginate: 5
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Add paginate
+# Deprecation: You appear to have pagination turned on,
+# but you haven't included the `jekyll-paginate` gem.
+# Ensure you have `gems: [jekyll-paginate]` in your configuration file.
+# shell> sudo gem install jekyll-paginate
+gems: [jekyll-paginate]
