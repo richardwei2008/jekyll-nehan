@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
+    {% if page.book_type %}
+        {% include head.html %}
+    {% else %}
+        {% include head-book.html %}
+    {% endif %}
     <body>
+    <div style="display: none">
+        <img src="{{ site.baseurl }}/assets/shiji.png" alt="shiji">
+    </div>
 
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
+        <div class="wrap">
+            {{ content }}
+        </div>
     </div>
 
+    {% if page.book_type %}
     {% include footer.html %}
+    {% else %}
+    {% include footer-book.html %}
+    {% endif %}
 
     </body>
 </html>

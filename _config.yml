@@ -1,10 +1,13 @@
 # Site settings
-title: your awesome site
+title: 史記（一）學習筆記
 email: mail@example.com
-description: "your awesome site description"
-url: ""
-baseurl: "/static/jekyll-nehan"
-username: your_name
+description: "台灣大學呂世浩老師"
+url: "http://richardwei2008.github.io"
+# github.io /read/shiji/tutorial1
+# local /jekyll-nehan/_site
+baseurl: "/jekyll-nehan/_site"
+
+username: Richaaaard
 disqus_shortname: your_shortname
 
 # pagination
