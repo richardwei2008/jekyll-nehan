@@ -1,11 +1,11 @@
 # Site settings
-title: 史記（一）學習筆記
+title: 《史記》（一）台灣大學呂世浩
 email: mail@example.com
-description: "台灣大學呂世浩老師"
+description: "魏胖子的學習筆記"
 url: "http://richardwei2008.github.io"
 # github.io /read/shiji/tutorial1
 # local /jekyll-nehan/_site
-baseurl: "/jekyll-nehan/_site"
+baseurl: "/read/shiji/tutorial1"
 
 username: Richaaaard
 disqus_shortname: your_shortname
