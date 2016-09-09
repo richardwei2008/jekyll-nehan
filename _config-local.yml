@@ -1,0 +1,25 @@
+# Site settings
+title: 《史記》（一）台灣大學呂世浩
+email: mail@example.com
+description: "魏胖子的學習筆記"
+url: "http://localhost:4000"
+# github.io /read/shiji/tutorial1
+# local /jekyll-nehan/_site
+baseurl: "/jekyll-nehan/_site"
+
+username: Richaaaard
+disqus_shortname: your_shortname
+
+# pagination
+paginate: 5
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Add paginate
+# Deprecation: You appear to have pagination turned on,
+# but you haven't included the `jekyll-paginate` gem.
+# Ensure you have `gems: [jekyll-paginate]` in your configuration file.
+# shell> sudo gem install jekyll-paginate
+gems: [jekyll-paginate]
