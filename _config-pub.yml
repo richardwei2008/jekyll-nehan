@@ -2,10 +2,10 @@
 title: 《史記》（一）台灣大學呂世浩
 email: mail@example.com
 description: "魏胖子的學習筆記"
-url: "http://localhost:4000"
+url: "http://richardwei2008.github.io"
 # github.io /read/shiji/tutorial1
 # local /jekyll-nehan/_site
-baseurl: "/jekyll-nehan/_site"
+baseurl: "/read/shiji/tutorial1"
 
 username: Richaaaard
 disqus_shortname: your_shortname
